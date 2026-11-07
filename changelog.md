@@ -1,6 +1,13 @@
 # Changelog
 
 
+### v0.1.2 - 7th November 2026
+
+- `README.md`: shorter, and the install line names the agents7 tag.
+- `pyproject.toml`: a comment pointed at a framework page that no longer
+  exists; it now names `docs/agent-packages.md`.
+
+
 ### v0.1.1 - 7th November 2026
 
 - The repository is renamed to `agent-sentiment_classifier`, so agent

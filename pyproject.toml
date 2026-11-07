@@ -1,6 +1,6 @@
 [project]
 name = "sentiment-classifier"
-version = "0.1.1"
+version = "0.1.2"
 description = "A sentiment classifier agent built with agents7."
 authors = [{ name = "Carlos Pinto", email = "carlospinto4p@gmail.com" }]
 readme = "README.md"
@@ -9,7 +9,7 @@ requires-python = ">=3.11"
 dependencies = [
     # A tagged framework release. Every package installed into one
     # environment must name the same tag (see the framework's
-    # docs/repository-split.md, "The cost of pinning to a tag").
+    # docs/agent-packages.md).
     "agents7 @ git+https://github.com/carlospinto4p/agents7@v9.25.9",
 ]
 
