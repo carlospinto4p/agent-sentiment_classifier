@@ -1,6 +1,13 @@
 # Changelog
 
 
+### v0.1.3 - 7th November 2026
+
+- `uv.lock`: agents7 tag `v9.25.9` re-resolved to commit `bb03025`.
+  The framework's history was rewritten and its repository recreated,
+  so the tag names a new commit.
+
+
 ### v0.1.2 - 7th November 2026
 
 - `README.md`: shorter, and the install line names the agents7 tag.
