@@ -1,6 +1,13 @@
 # Changelog
 
 
+### v0.1.1 - 7th November 2026
+
+- The repository is renamed to `agent-sentiment_classifier`, so agent
+  repositories share a prefix. `README.md` installs from the new URL.
+  The package name is unchanged.
+
+
 ### v0.1.0 - 7th November 2026
 
 - Moved out of the agents7 framework's `samples/sentiment_classifier/`

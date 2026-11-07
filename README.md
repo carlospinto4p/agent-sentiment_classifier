@@ -9,6 +9,9 @@ It is also the worked example of an agent kept in a repository of its
 own: it carries its own output model, its own eval set, and declares
 itself to tools that list installed agents.
 
+Agent repositories are named `agent-<name>`; the Python package
+inside keeps the agent's own name (`sentiment_classifier`).
+
 ## Categories
 
 | Category | Meaning | Reasons |
@@ -26,7 +29,7 @@ clear sentiment. The mapping lives in `CATEGORY_REASONS` on
 The package is not on PyPI. Install a tagged release:
 
 ```bash
-pip install "sentiment-classifier @ git+https://github.com/carlospinto4p/sentiment_classifier@v0.1.0"
+pip install "sentiment-classifier @ git+https://github.com/carlospinto4p/agent-sentiment_classifier@v0.1.1"
 ```
 
 It depends on a tagged release of agents7. Every package installed in
