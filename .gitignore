@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+build/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Eval reports and call logs
+reports/
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# Claude Code: per-machine settings and markers
+.claude/settings.local.json
+.claude/wip
+.claude/docs-ok
